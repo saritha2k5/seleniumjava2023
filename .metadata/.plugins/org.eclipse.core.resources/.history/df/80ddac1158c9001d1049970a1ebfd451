@@ -1,0 +1,14 @@
+package marchbatch;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class pageobjects {
+WebDriver driver;
+
+By myaccountlink=By.linkText("My Account");
+By loginlink=By.linkText("Login");
+By 
+
+
+}

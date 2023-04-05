@@ -1,0 +1,14 @@
+package amazon_pac;
+
+public class Contructor_Employee {
+	
+	String Name="abcd";
+	int Salary=20000;
+	
+	Contructor_Employee()
+	{
+		
+	}
+	
+
+}

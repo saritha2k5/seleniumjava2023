@@ -1,0 +1,10 @@
+package amazon_pac;
+
+public class TC003_gettersetter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

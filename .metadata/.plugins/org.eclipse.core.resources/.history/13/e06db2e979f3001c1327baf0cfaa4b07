@@ -1,0 +1,16 @@
+package amazon_pac;
+
+public class Boxdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Box bo=new Box();
+		bo.calvolume();
+		
+		
+
+	}
+
+}

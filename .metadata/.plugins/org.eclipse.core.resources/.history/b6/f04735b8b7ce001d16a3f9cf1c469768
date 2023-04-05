@@ -1,0 +1,57 @@
+package com.opencart.pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+public class pagefactory_makemytrip {
+WebDriver driver;
+//By myaccountlink=By.linkText("My Account");
+@FindBy(linkText="Hotels")
+WebElement hotellink;
+//By loginlink=By.linkText("Login");
+@FindBy(id="hsw_search_button")
+WebElement searchbutton;
+//By email=By.id("input-email");
+@FindBy(xpath="//input[@placeholder='Search for locality / hotel name']")
+WebElement cityname;
+//By password=By.id("input-password");
+@FindBy(linkText="South Goa, Goa")
+WebElement hotellocation;
+//By loginbutton=By.xpath("//button[@type='submit']");
+@FindBy(id="hlistpg_hotel_name")
+WebElement hotelid;
+
+@FindBy(linkText="BOOK THIS NOW")
+WebElement book;
+public void clickonhotel()
+{
+	hotellink.click();
+}
+public void clickonsearchbutton()
+{
+	searchbutton.click();
+}
+
+
+public void entercityname(String city)
+{
+	cityname.sendKeys(city);
+}
+
+public void enterhotellocation(String location)
+{
+	hotellocation.sendKeys(location);
+}
+
+public void clickonhotelid()
+{
+	hotelid.click();
+}
+
+public void bookthisnow()
+{
+	book.click();
+}
+
+}

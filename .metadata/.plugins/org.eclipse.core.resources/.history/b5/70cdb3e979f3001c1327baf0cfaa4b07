@@ -1,0 +1,15 @@
+package amazon_pac;
+
+public class Box {
+
+	double dblwidth;
+	double dblheight;
+	double dbldepth;
+	double calvolume()
+	{
+		return dblwidth*dblheight*dbldepth;
+		
+	}
+	
+	
+}
